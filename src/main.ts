@@ -4,6 +4,7 @@ import router from './router'
 import Antd from 'ant-design-vue'
 import pinia from './store'
 
+import '@/permission'
 import 'ant-design-vue/dist/antd.css'
 
 const setupAll = () => {
