@@ -1,4 +1,5 @@
 import router from "./router"
+import i18n from "@/locales"
 import { useCache } from "@/hooks/useCache"
 import { useNProgress } from "@/hooks/useNProgress"
 import { usePermissionStore } from "@/store/modules/permissionStore"

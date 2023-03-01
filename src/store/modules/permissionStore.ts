@@ -8,7 +8,7 @@ interface stateType {
 export const permissionStore = defineStore('permission', {
   persist: true,
   state: (): stateType => ({
-    token: ''
+    token: '1'
   }),
   getters: {
     getToken(): string {
